@@ -1,0 +1,254 @@
+{
+  "data": {
+    "orders": [
+      {
+        "__typename": "TransferOrder",
+        "id": "101edc4e-daf0-4de6-8a51-5a4c21b17299",
+        "createdAt": 1671513423804,
+        "source": "skusavvy",
+        "status": "Processing",
+        "tags": [],
+        "note": null,
+        "originCompanyId": "f0b0e9dd-9160-4ed9-8bb8-4f2d61af5f9b",
+        "destinationCompanyId": "f0b0e9dd-9160-4ed9-8bb8-4f2d61af5f9b",
+        "originWarehouseId": "0f12c48c-46cd-4b77-9140-a11aa6c97c44",
+        "shopifyId": null,
+        "originWarehouse": {
+          "id": "0f12c48c-46cd-4b77-9140-a11aa6c97c44"
+        },
+        "destinationWarehouse": {
+          "id": "e20a1e35-2dbb-4580-8b9c-aa7f981c089b"
+        },
+        "shipments": [
+          {
+            "id": "1e4cb712-2cbd-473e-a1b9-46f28613d5fe",
+            "createdAt": 1671513423804,
+            "updatedAt": null,
+            "cancelledAt": null,
+            "deliveredAt": null,
+            "checkedInAt": null,
+            "estimatedDeliveryAt": null,
+            "fulfilledAt": null,
+            "shippedAt": null,
+            "status": "Processing",
+            "orderId": "101edc4e-daf0-4de6-8a51-5a4c21b17299",
+            "originWarehouseId": "0f12c48c-46cd-4b77-9140-a11aa6c97c44",
+            "packagingId": null,
+            "batchId": null,
+            "shipEngineId": null,
+            "shipEngineLabelId": null,
+            "shipEngineRateId": null,
+            "trackingNumber": null,
+            "priority": 1,
+            "areaId": null,
+            "weight": null,
+            "weightUnit": "lb",
+            "fulfillmentId": null,
+            "fulfillmentOrderId": null,
+            "manually": false,
+            "split": false,
+            "tracking": null,
+            "label": null,
+            "quantities": [
+              {
+                "id": "e7b54965-ceb2-4b74-8a02-028a18d53ecf_1e4cb712-2cbd-473e-a1b9-46f28613d5fe_none"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "TransferOrder",
+        "id": "3c42044a-da3d-456d-ac5d-2a10b0eef833",
+        "createdAt": 1671513494121,
+        "source": "skusavvy",
+        "status": "Processing",
+        "tags": [],
+        "note": null,
+        "originCompanyId": "f0b0e9dd-9160-4ed9-8bb8-4f2d61af5f9b",
+        "destinationCompanyId": "f0b0e9dd-9160-4ed9-8bb8-4f2d61af5f9b",
+        "originWarehouseId": "0f12c48c-46cd-4b77-9140-a11aa6c97c44",
+        "shopifyId": null,
+        "originWarehouse": {
+          "id": "0f12c48c-46cd-4b77-9140-a11aa6c97c44"
+        },
+        "destinationWarehouse": {
+          "id": "e20a1e35-2dbb-4580-8b9c-aa7f981c089b"
+        },
+        "shipments": [
+          {
+            "id": "8fca506b-1bfa-45f0-8423-a457886f64f8",
+            "createdAt": 1671513494121,
+            "updatedAt": null,
+            "cancelledAt": null,
+            "deliveredAt": null,
+            "checkedInAt": null,
+            "estimatedDeliveryAt": null,
+            "fulfilledAt": null,
+            "shippedAt": null,
+            "status": "Processing",
+            "orderId": "3c42044a-da3d-456d-ac5d-2a10b0eef833",
+            "originWarehouseId": "0f12c48c-46cd-4b77-9140-a11aa6c97c44",
+            "packagingId": null,
+            "batchId": null,
+            "shipEngineId": null,
+            "shipEngineLabelId": null,
+            "shipEngineRateId": null,
+            "trackingNumber": null,
+            "priority": 1,
+            "areaId": null,
+            "weight": null,
+            "weightUnit": "lb",
+            "fulfillmentId": null,
+            "fulfillmentOrderId": null,
+            "manually": false,
+            "split": false,
+            "tracking": null,
+            "label": null,
+            "quantities": [
+              {
+                "id": "034377fe-0144-4e50-8f19-b6acf05ff09c_8fca506b-1bfa-45f0-8423-a457886f64f8_none"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__typename": "CustomerOrder",
+        "order_id": "b1060d4c-1869-4d5f-a4a6-043df96904f7",
+        "customer_id": "bfbaf92a-6762-43a0-ba24-d98a09ef5dfe",
+        "order_purchase_date": 1671518401384,
+        "order_invoice_datetime": null,
+        "quantities": [
+          {
+            "quantity": 1,
+            "variant": {
+              "sku_id": "1",
+              "sku_price": 50000,
+              "productId": "a996185a-b356-4845-8043-97e0cc4d0295",
+              "product": {
+                "sku_category": "Mechanical",
+                "sku_name": "Machinery Equipments",
+                "categories": [
+                  {
+                    "name": "machinery"
+                  }
+                ]
+              }
+            },
+            "id": "16cbb214-8e3a-4716-8737-38204b78d54d"
+          }
+        ],
+        "shipments": [
+          {
+            "id": "99ec4aef-09bb-4fa7-acc9-d87c2fb4d990"
+          }
+        ],
+        "customer": {
+          "id": "bfbaf92a-6762-43a0-ba24-d98a09ef5dfe",
+          "note": null
+        },
+        "location": {
+          "id": "8646ad84-d828-4fe9-80d8-3a6f3ae864c8"
+        },
+        "shippingLines": null
+      },
+      {
+        "__typename": "CustomerOrder",
+        "order_id": "afeca4cf-0ca9-433a-9656-eb637b0ada49",
+        "customer_id": "53d32b6c-679d-456e-a6a9-aa6477797137",
+        "order_purchase_date": 1671518637106,
+        "order_invoice_datetime": null,
+        "quantities": [
+          {
+            "quantity": 10,
+            "variant": {
+              "sku_id": "2.5",
+              "sku_price": 2500,
+              "productId": "0448549e-eb8a-4998-b4ed-e87d9099c4de",
+              "product": {
+                "sku_category": "Interior",
+                "sku_name": "furnitures",
+                "categories": [
+                  {
+                    "name": "interior"
+                  }
+                ]
+              }
+            },
+            "id": "5a9c1e1a-4e39-497e-a13e-c4366b9c4693"
+          }
+        ],
+        "shipments": [
+          {
+            "id": "ab7474ef-ac63-4f77-abbd-b23af1bed1cf"
+          }
+        ],
+        "customer": {
+          "id": "53d32b6c-679d-456e-a6a9-aa6477797137",
+          "note": null
+        },
+        "location": {
+          "id": "b5d39bfb-b360-4491-a0e3-e83308f30fda"
+        },
+        "shippingLines": null
+      },
+      {
+        "__typename": "CustomerOrder",
+        "order_id": "b3302ae3-24c9-4345-9881-9b8f514207a0",
+        "customer_id": "e9d44ef7-debb-4645-ac87-d0c185f63503",
+        "order_purchase_date": 1671533673724,
+        "order_invoice_datetime": null,
+        "quantities": [
+          {
+            "quantity": 10,
+            "variant": {
+              "sku_id": "5",
+              "sku_price": 10000,
+              "productId": "a308454e-f173-4f42-97fa-3a24b14d0f7c",
+              "product": {
+                "sku_category": null,
+                "sku_name": "shirts",
+                "categories": [
+                  {
+                    "name": "clothings"
+                  }
+                ]
+              }
+            },
+            "id": "e0bd30be-90b9-4b1b-b9d1-81a285256bdc"
+          }
+        ],
+        "shipments": [
+          {
+            "id": "302122d4-61e6-4a62-bdd7-7ded46f6357e"
+          }
+        ],
+        "customer": {
+          "id": "e9d44ef7-debb-4645-ac87-d0c185f63503",
+          "note": null
+        },
+        "location": {
+          "id": "17f5e0fa-b377-47ad-a236-087f658c5d0b"
+        },
+        "shippingLines": null
+      }
+    ],
+    "packagings": [
+      {
+        "__typename": "Packaging",
+        "weight": 150
+      }
+    ],
+    "variantOutboundOrders": [
+      {
+        "__typename": "CustomerOrder",
+        "estimated_delivery_date": null
+      },
+      {
+        "__typename": "CustomerOrder",
+        "estimated_delivery_date": null
+      }
+    ]
+  }
+}
